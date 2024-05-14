@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: blue;
+}
+#contenedor{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+header h1{
+margin: 0;
+padding: 15px 0;
+text-align: center;
+}
+nav a{
+    text-decoration: none;
+    background-color: darkgrey;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    width: 25%;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+nav{
+    font-size: 0;
+}
+nav a:hover{
+    background-color: black;
+}
+main{
+    width: 70%;
+    padding: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+aside{
+    width: 30%;
+    padding: 16px;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgb(43, 10, 51);
+    color: rgb(230, 230, 218);
+}
+erticle{
+    background-color: thistle;
+    width: 64%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+galeria{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 0;
+}
+galeria img{
+    width: 20%;
+    margin: 2.5%;
+}
