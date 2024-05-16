@@ -79,8 +79,5 @@ background-color: lightpink;
  }
  #comportamiento4{
     cursor: pointer;
-    transition: 1s;
  }
- #comportamiento4:hover{
-    transform: calc(100%);
- }
+    
