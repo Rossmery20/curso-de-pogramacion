@@ -23,3 +23,29 @@
         text-decoration: none;
         padding: 0 10px;
     }
+    form{
+        padding: 25px;
+    }
+    form span{
+        font-weight: 600;
+        display: block;
+        margin-bottom: 16px;
+    }
+    form label{
+        display: block;
+        margin-bottom: 5px;
+    }
+    form input{
+        display: block;
+        padding: 5px;
+        border-radius: 7px;
+        border-radius: 7px;
+        border: solid 3px blueviolet;
+        margin-bottom: 16px;
+    }
+    form input:focus{
+        background-color: lightcyan;
+    }
+    form span.genero label, form span.genero input{
+        display: inline;
+    }

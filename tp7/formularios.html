@@ -17,6 +17,57 @@
         <a href="">producto</a> /
         <a href="">contacto</a> /
     </nav>
+    <form action="" method="post">
+      <span>dejanos tus datos para responderte a la brevedad</span>
+      <label for="nombre">nombre</label>
+      <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre">
+      <label for="apellido">apellido</label>
+      <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
+      <label for="dni">dni</label>
+      <input type="text" name="dni" id="dni" minlength="7" maxlength="8"> 
+      <label for="correo">correo</label>
+      <input type="email" name="correo" id="correo">
+      <label for="telefono">telefono</label>
+      <input type="tel" name="telefono" id="telefono" value="+54 9 11">
+      <label for="nacimiento">fecha de nacimiento</label>
+      <input type="date" name="date" id="nacimiemto" >
+      <label for="doc">documentacion</label>
+      <input type="file" name="doc" id="doc">
+      <span class="genero"> genero
+      <input type="radio" name="genero" id="genero" value="masculimo">
+      <label for="masculino">masculino</label>
+      <input type="radio" name="genero" id="genero" value="femenino">
+      <label for="femenino">femenino</label>
+      <input type="radio" name="genero" id="genero" value="otro">
+      <label for="otro">otro</label>
+      <input type="radio" name="genero" id="genero" value="prefiero no responder">
+      <label for="noresp">prefiero no responder</label>
+      <label for="nacionalidad">Nacionalidad</label>
+      <select name="nacionalidad" id="nacionalidad">
+          <option value="Seleccionar" selected disabled>Seleccione de la lista</option>
+          <option value="Argentina">Argentina</option>
+          <option value="Venezolana">Venezolana</option>
+          <option value="Paraguaya">Colombiana</option>
+          <option value="Peruana">Peruana</option>
+          <option value="Boliviana">Boliviana</option>
+          <option value="Otra">Otra</option>
+      </select>
+      <span>Cursos de su interes</span>
+      <input type="checkbox" name="progWeb" id="progWeb" value="progWeb">
+      <label for="progWeb">Programación Web</label>
+      <input type="checkbox" name="repPc" id="repPc" value="repPc">
+      <label for="repPc">Reparación de PC</label>
+      <input type="checkbox" name="liqSueldos" id="liqSueldos" value="liqSueldos">
+      <label for="liqSueldos">Liquidación de Sueldos</label>
+      <span>Consulta</span>
+      <textarea name="consulta" id="consulta" cols="30" rows="10" maxlength="256" placeholder="máximo de 256 caracteres"></textarea><br>
+      <button type="submit">Enviar</button><button type="reset">Borrar</button>
+  </form>
+  <footer>
+      <small>Diseñado por ross</small>
+  </footer>
+      </span>
+    </form>
   </div>  
 </body>
 </html>
