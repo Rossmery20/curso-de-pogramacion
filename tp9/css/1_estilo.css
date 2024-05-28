@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contenedor{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+#sombratxt1{
+    font-size: 42px;
+    font-weight: 600;
+    text-shadow: -6px -6px 4px rgba(0, 0, 0, 0.6);
+}
+#sombratxt2{
+    font-size: 42px;
+    font-weight: 600;
+    text-shadow: 0 0 5px red ,3px 3px 4px orange; 
+}
+.box{
+    display: inline-block;
+    width: 300px;
+    background-color: rgb(231, 182, 91);
+    padding: 16px;
+    margin: 16px;
+}
+#sombracaja{
+    box-shadow: 6px 6px 3px 10px rgba(0, 0, 0, 0.4);
+}
+#sombracaja2{
+    box-shadow:3px 3px red, 6px 6px purple, 9px 9px blue,12px 12px green ;
+}
+#sombracaja3{
+    box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.4) inset;
+}
+#sombracaja4{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+#opasidad2{
+    transform: translate(-120px, 20px);
+    opacity: 0.5;
+}
+#redimensionar{
+    resize: both;
+    overflow: auto;
+}
