@@ -64,13 +64,14 @@ footer{
     background-color: darkgrey;
     padding: 0.5em 2em;
     position: relative;
-    left: 1%;
+    left: 1% ;
     width: 100%;
     margin-top: 2em;
 }
-footer img{
+#contenedor footer img{
     width:50px ;
     vertical-align: middle;
+    min-width:unset;
 }
 
 
