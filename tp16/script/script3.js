@@ -47,11 +47,11 @@ console.log(sumaDeDatos); */
 let valor = "3.1417";
 console.log(valor, typeof(valor));
 
-let valornum =Number(valor);
+let valornum = Number(valor);
 console.log(valornum, typeof(valornum));
 
 let valorint = parseInt(valor);
 console.log(valorint, typeof(valor));
 
 let valorfloat = parseFloat(valor)
-console.log(valorfloat; typeof(valor));
+console.log(valorfloat, typeof(valor));
