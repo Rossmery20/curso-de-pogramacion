@@ -58,7 +58,7 @@ let doble = "comillas dobles permiten comillas simples dentro, i'm jhonny walker
 let simple = 'comillas simples permiten "comillas" dobles';
 let grave =  `el batik permite 'simple' u "doble" `;
 
-let localidad = "san martin";
+let localidad = "3f";
 console.log("localidad:" + localidad + ", bs as");
 
 console.log(`localidad: (localidad), bs as`);
