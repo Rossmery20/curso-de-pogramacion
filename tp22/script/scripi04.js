@@ -16,3 +16,46 @@ document.querySelector("#btnej2").addEventListener("click", () => {
 }
     document.querySelector("#salidaej2").innerHTML = `*papas: ${0.5*comensales}kilos<br>*leche: ${100*comensales}ml<br>*manteca: ${30*comensales}grs<br>*huevo: ${1*comensales}unidades<br>`;
 })
+document.querySelector("#btnej3-1").addEventListener("click", () => {
+    let asistente = document.querySelector("#asistentes").value = "";
+    if(asistente == ""){
+        document.querySelector("#salidaej3"). innerHTML = "error - ingrese un nombre en el input";
+        return;
+    }
+    //console.log(asistente);
+    asistentes.push(asistente)
+    //console.log(asistentes);
+});
+let asistentes = [];
+document.querySelector("#btnej3-2").addEventListener("click" , () => {
+    if(asistentes.length == 0){
+        document.querySelector("#salidaej3").innerHTML = "error - no hay datos guardados";
+        return
+    }
+ asistentes.forEach((nombre, i) => {
+   // console.log(nombre)
+   i++;
+   document.querySelector("#salidaej3").innerHTML += i + " - " + nombre + "<br>";
+ });   
+})
+let carrito = [0,0,0];
+document.querySelector("#sumaprod0").addEventListener("click", () => {
+    carrito[0]++;
+    actualizarcontador();
+})
+document.querySelector("#sumaprod1").addEventListener("click", () => {
+    carrito[1]++;
+    actualizarcontador();
+})
+document.querySelector("#sumaprod2").addEventListener("click", () => {
+    carrito[2]++;
+    actualizarcontador();
+})
+
+function actualizarcontador(){
+    let acumulador = 0;
+    carrito.forEach((cantidad) => {
+        acumulador += cantidad;
+    });
+    document.querySelector("#contador").innerHTML = acumulador;
+}
