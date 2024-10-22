@@ -1,3 +1,5 @@
+let registros = [ ];
+
 document.querySelector("#registrar").addEventListener("click", () => {
     let nombre =document.querySelector("#nombre");
     let apellido =document.querySelector("#apellido");
@@ -13,7 +15,13 @@ document.querySelector("#registrar").addEventListener("click", () => {
         apellido: apellido.value,
         telefeno: telefono.value,
     };
-    console.log(datos)
+   // console.log(datos)
+     registros.push(datos);
+
+     // vaciar campos
+     nombre.value = "";
+     apellido.value = "";
+     telefono.value = "";
 })
 
 //manejo de errores
@@ -30,4 +38,23 @@ function mostrarError(msg){
 document.querySelector("#errores").addEventListener("click", () => {
     document.querySelector("#errores").style.opacity = 0;
     //document.querySelector("#errores").innerHTML = "";
+})
+document.querySelector("#mostrar").addEventListener("click", () =>{
+    let textoDeSalida = "";
+    if(registros.length === 0){
+        mostrarError("no hay registro para mostrar");
+        return
+    }
+    registros.forEach((registro) => {
+        textoDeSalida +=
+         `<div class ="registro"><span>nombre: ${registro.nombre}</span><span> apellido: ${registro.apellido}</span> <span>telefono: ${registro.telefono}</span></div>`
+        
+    })
+   // console.log(textoDeSalida);
+   document.querySelector("#salida span").innerHTML = textoDeSalida;
+})
+
+document.querySelector("#vaciar").addEventListener("clikc", () => {
+    document.querySelector("#salida span").innerHTML = "";
+    registros = [];
 })
