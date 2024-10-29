@@ -38,3 +38,29 @@ h1{
     background-color: darkmagenta;
     padding: 0.5em;
 }
+#detalles{
+    display: flex;
+flex-direction: column;
+gap: 0.5em;
+background-color: aliceblue;
+padding: 1em;
+}
+#detalles h1{
+    font-size: 1.4em;
+    border-bottom-width: 2px;
+}
+#detalles h2{
+    font-size: 1.2em;
+    color: brown;
+}
+#listaDeAlumnos{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+#listaDeAlumnos > div{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 1em;
+}
