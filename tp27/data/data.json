@@ -1,0 +1,35 @@
+[ {
+    "nombre": "ross",
+    "apellido":"vila",
+    "mail": "mery_ross@hotmail.com",
+    "direccion":"calle mantevideo",
+    "telefono": 48482143
+}, 
+{
+    "nombre": "zoe",
+    "apellido":"tellez",
+    "mail": "zoe_2020@hotmail.com",
+    "direccion":"calle cubas",
+    "telefono": 20474352
+}, 
+{
+    "nombre": "enzo",
+    "apellido":"rios",
+    "mail": "enzo2019@hotmail.com",
+    "direccion":"calle reconquista",
+    "telefono": 48482143
+}, 
+{
+    "nombre": "lia",
+    "apellido":"vila",
+    "mail": "lia_briony@hotmail.com",
+    "direccion":"calle bermudez",
+    "telefono": 49503456
+}, 
+{
+    "nombre": "valentina",
+    "apellido":"vila",
+    "mail": "valn_tina@hotmail.com",
+    "direccion":"calle cuva",
+    "telefono": 48482143
+} ]
