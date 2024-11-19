@@ -5,9 +5,31 @@
 }
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 1em;
+    padding: 2em;
     background-color: rgb(251, 220, 251);
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+h1{
+     border-bottom: 2px solid black;
+}
+nav{
+    display: flex;
+    gap: 1em;
+}
+.btn{
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 0.7em;
+}
+main{
+    flex-grow: 1;
+}
+main h2{
+    border-bottom: 1px solid black;
+}
+footer{
+  background-color: bisque;
+  padding: 2em;
 }
